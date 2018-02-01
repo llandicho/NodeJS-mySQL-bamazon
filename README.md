@@ -13,13 +13,15 @@ Video Demo: <a href="https://youtu.be/xZEY0pdeX88" target="_blank">MySQL NodeJS<
 	<li>MySQL</li>
 </ul>
 
-npm packages:
-mysql
-prompt
-inquire
+<b>npm packages:</b>
+<ul>
+	<li>mysql</li>
+	<li>prompt</li>
+	<li>inquire</li>
+</ul>
 
 
-//==== Instructions:
+<h2>Instructions:</h2>
 
 1. Create a MySQL Database called bamazonDB.
 
