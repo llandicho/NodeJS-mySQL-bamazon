@@ -59,7 +59,7 @@ function startPrompt() {
                 } else {
                     //list item information for user for confirm prompt
                     console.log("===================================");
-                    console.log("We can fulfull your order!");
+                    console.log("We can fulfill your order!");
                     console.log("===================================");
                     console.log("You've selected:");
                     console.log("----------------");
