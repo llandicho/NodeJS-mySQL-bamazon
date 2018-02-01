@@ -5,7 +5,8 @@ Creating an Amazon-like storefront using MySQL, Prompt, Javascript and Node.js. 
 
 Video Demo: <a href="https://youtu.be/xZEY0pdeX88" target="_blank">MySQL NodeJS</a>
 
-Technologies Used:
+
+<b>Technologies Used:</b>
 Javascript
 nodeJS
 MySQL
