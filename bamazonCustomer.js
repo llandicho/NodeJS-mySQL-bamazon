@@ -24,19 +24,8 @@ connection.connect(function(err) {
     startPrompt();
 });
 
-//=================================Inquirer introduction===============================
 
-
-
-//=================================Inventory===============================
-
-
-//=================================Inquirer user purchase===============================
-
-
-
-//=================================Item selection and Quantity desired===============================
-
+//====Item selection and Quantity desired===
 
 
 function startPrompt() {
@@ -45,12 +34,14 @@ function startPrompt() {
 
             type: "input",
             name: "inputId",
-            message: "Please enter the ID number of the item you would like to purchase.",
+            message: "Please select the ID of the product that you would like to purchase?",
+
+            
         },
         {
             type: "input",
             name: "inputNumber",
-            message: "How many units of this item would you like to purchase?",
+            message: "How many units of the product you would like to buy?",
 
         }
     ]).then(function(userPurchase) {
@@ -100,7 +91,8 @@ function confirmPrompt(newStock, purchaseId) {
 
         type: "confirm",
         name: "confirmPurchase",
-        message: "Are you sure you would like to purchase this item and quantity?",
+        message: "How many units of the product you would like to buy?",
+
         default: true
 
     }]).then(function(userConfirm) {
