@@ -7,9 +7,11 @@ Video Demo: <a href="https://youtu.be/xZEY0pdeX88" target="_blank">MySQL NodeJS<
 
 
 <b>Technologies Used:</b>
-Javascript
-nodeJS
-MySQL
+<ul>
+	<li>Javascript</li>
+	<li>nodeJS</li>
+	<li>MySQL</li>
+</ul>
 
 npm packages:
 mysql
