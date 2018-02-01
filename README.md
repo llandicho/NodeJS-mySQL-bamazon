@@ -3,7 +3,7 @@
 
 Creating an Amazon-like storefront using MySQL, Prompt, Javascript and Node.js. The app will take in orders from customers and deplete stock from the store's inventory.
 
-Video Demo: https://youtu.be/xZEY0pdeX88
+Video Demo: <a href="https://youtu.be/xZEY0pdeX88" target="_blank">MySQL NodeJS</a>
 
 Technologies Used:
 Javascript
