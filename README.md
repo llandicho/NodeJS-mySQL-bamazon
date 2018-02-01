@@ -3,7 +3,7 @@
 
 Creating an Amazon-like storefront using MySQL, Prompt, Javascript and Node.js. The app will take in orders from customers and deplete stock from the store's inventory.
 
-<b>Video Demo:</b><a href="https://youtu.be/xZEY0pdeX88" target="_blank">MySQL NodeJS</a>
+<b>Video Demo:</b> <a href="https://youtu.be/xZEY0pdeX88" target="_blank">MySQL NodeJS</a>
 
 
 <b>Technologies Used:</b>
@@ -41,14 +41,13 @@ Creating an Amazon-like storefront using MySQL, Prompt, Javascript and Node.js. 
 
 6. The app should then prompt users with two messages.
 <ul>
-<li>a. The first should ask them the ID of the product they would like to buy.</li>
-<li>b. The second message should ask how many units of the product they would like to buy.</li>
+<li>a. Please select the ID of the product that you would like to purchase?</li>
+<li>b. How many units of the product you would like to buy?</li>
 </ul>
 7. Once the customer has placed the order, your application should check if your store has enough of the product to meet the customer's request.
 If not, the app should log a phrase like "Sorry! Insufficient quantity!", and then prevent the order from going through.
-
+<p>
 However, if your store does have enough of the product, you should fulfill the customer's order.
-This means updating the SQL database to reflect the remaining quantity.
-Once the update goes through, show the customer the total cost of their purchase.
+This means updating the SQL database to reflect the remaining quantity. Once the update goes through, show the customer the total cost of their purchase.</p>
 
 
