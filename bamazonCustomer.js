@@ -1,10 +1,9 @@
-//=================================Setup Required Variables===============================
-
+//====Setup Variables====
 
 var mysql = require('mysql');
 var inquirer = require('inquirer');
 
-//=================================Connect to SQL database===============================
+//====Connect to SQL database====
 
 var connection = mysql.createConnection({
     host: "localhost",
@@ -25,8 +24,7 @@ connection.connect(function(err) {
 });
 
 
-//====Item selection and Quantity desired===
-
+//====Item and Quantity selection ===
 
 function startPrompt() {
 
@@ -36,7 +34,7 @@ function startPrompt() {
             name: "inputId",
             message: "Please select the ID of the product that you would like to purchase?",
 
-            
+
         },
         {
             type: "input",
@@ -54,14 +52,14 @@ function startPrompt() {
                 if (userPurchase.inputNumber > res[i].stock_quantity) {
 
                     console.log("===================================================");
-                    console.log("Sorry! Not enough in stock. Please try again later.");
+                    console.log("Sorry! Insufficient quantity!");
                     console.log("===================================================");
                     startPrompt();
 
                 } else {
                     //list item information for user for confirm prompt
                     console.log("===================================");
-                    console.log("Awesome! We can fulfull your order.");
+                    console.log("We can fulfull your order!");
                     console.log("===================================");
                     console.log("You've selected:");
                     console.log("----------------");
@@ -83,7 +81,7 @@ function startPrompt() {
     });
 }
 
-//=================================Confirm Purchase===============================
+//===Confirm Purchase===
 
 function confirmPrompt(newStock, purchaseId) {
 
